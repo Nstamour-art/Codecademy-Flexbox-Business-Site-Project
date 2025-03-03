@@ -178,16 +178,16 @@ nav .logo img{
 }
 
 /* Responsive design for the products section */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
     .products {
         padding: 1rem;
     }
     .products .product-container {
-        flex-direction: column; 
+        flex-direction: row; 
         align-items: center;
     }
     .product {
-        width: 15rem;
+        width: 50%;
     }
 }
 @media only screen and (max-width: 650px) {
