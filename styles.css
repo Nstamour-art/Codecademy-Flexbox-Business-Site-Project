@@ -62,7 +62,7 @@ nav .logo img {
 }
 
 /* Offset for anchor links */
-#Home, #Products, #About {
+#Products, #About {
   padding-top: 7rem; /* Adjust this value based on your header height */
   margin-top: -7rem; /* Adjust this value based on your header height */
 }
@@ -345,8 +345,6 @@ nav .logo img {
 
 .about .team {
   display: flex;
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-bottom: 1rem;
   flex-direction: column;
   align-items: center;
@@ -395,7 +393,6 @@ nav .logo img {
   .about .team .team-container {
     flex-direction: row;
     align-items: center;
-    padding: 1rem;
     gap: 1rem;
   }
 }
@@ -406,6 +403,7 @@ nav .logo img {
   .about .team .team-container {
     flex-direction: column;
     align-items: center;
+    padding-top: 1rem;
   }
 }
 
