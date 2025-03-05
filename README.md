@@ -6,7 +6,7 @@ This project is part of the Codecademy Full Stack Engineer course, specifically 
 
 The project has the following structure:
 
-  Flexbox-Business-site/ 
+    Flexbox-Business-site/ 
     ├── favicon.ico 
     ├── images/ 
       │ ├── building_the_future_1.jpg 
@@ -17,7 +17,7 @@ The project has the following structure:
       │ ├── smartphone_image_future.jpg 
       │ ├── vp_design_headhsot.jpg 
       │ ├── vp_marketing_headshot.jpg 
-      │ ├── vp_sales_headshot.jpg 
+      │ ├── vp_sales_headshot.jpg
     ├── index.html 
     └── styles.css
 
