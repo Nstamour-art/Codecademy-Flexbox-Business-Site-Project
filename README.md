@@ -32,20 +32,15 @@ The project has the following structure:
 
 - **Responsive Navigation Bar**: A navigation bar that adjusts its layout based on the screen size.
 - **Call to Action Section**: A visually appealing section with a background image and a call to action button.
-- **Products Section**: A section showcasing the products offered by the business.
-- **About Us Section**: A section that provides information about the business and its team members.
-- **Footer**: A footer with the business's copyright information.
+- **Products Section**: A section showcasing the products offered by the "business".
+- **About Us Section**: A section that provides information about the "business" and its fake team members.
+- **Footer**: A footer with the "business's" copyright information.
 
 ## Technologies Used
 
 - **HTML**: For the structure of the website.
 - **CSS**: For styling the website, including the use of Flexbox for layout.
 - **Google Fonts**: For custom fonts used in the website.
-
-## How to Run
-
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser to view the website.
 
 ## Screenshots
 
@@ -60,9 +55,6 @@ The project has the following structure:
 
 ![Screenshot of the Call to Action section](./images/Screenshots/Narrow_CallToAction_Screenshot.png)
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Acknowledgements
 
