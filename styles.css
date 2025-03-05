@@ -5,10 +5,19 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: sans-serif;
+  font-family: "Funnel Sans", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+p {
+  font-family: "Roboto Flex", Arial, Helvetica, sans-serif;
 }
 
 /* Styling for the nav bar */
+
 nav {
   background-color: #fff;
   color: #001f3f;
@@ -53,6 +62,7 @@ nav .logo img {
 }
 
 /* Responsive design for the nav bar */
+
 @media only screen and (max-width: 550px) {
   nav ul {
     gap: 0.2rem;
@@ -75,7 +85,6 @@ nav .logo img {
 /* Styling for the call to action masthead */
 
 .CallToAction {
-  margin-top: 5rem; /* Adjust this value based on the height of your nav bar */
   padding: 2rem;
   background-color: #f4f4f4;
   min-height: 40rem;
@@ -89,6 +98,8 @@ nav .logo img {
   text-align: center;
   color: #fff;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 1500px;
+  margin: 5rem auto 0 auto;
 }
 
 .CallToAction h1 {
@@ -129,6 +140,7 @@ nav .logo img {
   .CallToAction {
     margin-top: 7rem;
     padding: 1rem;
+    min-height: 30rem;
   }
   .CallToAction h1 {
     font-size: 1.2rem;
@@ -155,7 +167,7 @@ nav .logo img {
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
+  padding: 2rem;
   width: 30rem;
   text-align: center;
 }
@@ -177,6 +189,7 @@ nav .logo img {
 }
 
 /* Responsive design for the products section */
+
 @media only screen and (max-width: 1024px) {
   .products {
     padding: 1rem;
@@ -187,6 +200,7 @@ nav .logo img {
   }
   .product {
     width: 50%;
+    padding: 1rem;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -200,4 +214,173 @@ nav .logo img {
   .product {
     width: 100%;
   }
+}
+
+/* Styling for the about story section */
+
+.about {
+  display: flex;
+  gap: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+.about .story img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+.about .story {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about .story-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.about .story-text h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.about .story-text p {
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+  text-align: left;
+}
+
+/* Responsive design for the about story section */
+
+@media only screen and (max-width: 1024px) {
+  .about {
+    padding: 1rem;
+  }
+  .about .story {
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+  }
+  .about .story-text {
+    width: 50%;
+  }
+  .about .story img {
+    width: 50%;
+  }
+  .about .story-text h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .about {
+    padding: 1rem;
+  }
+  .about .story {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .story-text {
+    width: 100%;
+  }
+  .about .story img {
+    width: 100%;
+  }
+  .about .story-text h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Styling for the about team section */
+
+.about .team {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+.about .team .team-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 (1rem * 3);
+}
+.about .team .team-container img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+.about .team h3 {
+  font-size: 1.5rem;
+  padding: 0 0 2rem 0;
+  margin: 0;
+}
+.about .team-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about .team-member h4 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0 0;
+}
+.about .team-member p {
+  font-size: .75rem;
+  margin: 0.5rem 0.5rem;
+  text-align: center;
+}
+
+/* Responsive design for the about team section */
+
+@media only screen and (max-width: 1024px) {
+  .about .team .team-container {
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .about .team {
+    padding: 1rem;
+  }
+  .about .team .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Styling for the footer */
+
+footer {
+  background-color: #001f3f;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+footer p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
