@@ -2,6 +2,10 @@
 
 This project is part of the Codecademy Full Stack Engineer course, specifically the HTML and CSS module. The project demonstrates the use of Flexbox to create a responsive generic business website. I made up a business called **"Future.com"** that is suitably generic and corporate. The images are all generated using ChatGPT 4o and Adobe Firefly Image generation
 
+## Link
+
+https://nstamour-art.github.io/Codecademy-Flexbox-Business-Site-Project/
+
 ## Project Structure
 
 The project has the following structure:
